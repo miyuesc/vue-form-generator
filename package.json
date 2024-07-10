@@ -1,0 +1,35 @@
+{
+  "name": "@miyue-vfg/monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "author": {
+    "name": "miyuefe",
+    "url": "https://github.com/miyuesc"
+  },
+  "license": "Apache-2.0",
+  "private": true,
+  "packageManager": "pnpm@9.3.0",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miyuesc/vue-form-generator.git"
+  },
+  "dependencies": {
+    "vue-demi": "latest"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "vue": "^3.0.0"
+  }
+}
